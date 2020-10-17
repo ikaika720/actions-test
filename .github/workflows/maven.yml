@@ -6,8 +6,10 @@ name: Java CI with Maven
 on:
   push:
     branches: [ main ]
+    paths: 'jpa-webapp-spring-tomcat/**'
   pull_request:
     branches: [ main ]
+    paths: 'jpa-webapp-spring-tomcat/**'
   workflow_dispatch:
 
 jobs:
